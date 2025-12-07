@@ -1,0 +1,31 @@
+{
+  "name": "quirklr",
+  "version": "1.0.0",
+  "description": "server for the quirklr app",
+  "keywords": [
+    "quirklr",
+    "blockchain",
+    "metamask"
+  ],
+  "homepage": "https://github.com/josephagbonifo/quirklr#readme",
+  "bugs": {
+    "url": "https://github.com/josephagbonifo/quirklr/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josephagbonifo/quirklr.git"
+  },
+  "license": "MIT",
+  "author": "Joseph Agbonifo",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1"
+  }
+}
